@@ -1,6 +1,6 @@
 <!-- =========================================================================================
-  File Name: Profile.vue
-  Description: Profile Page
+  File Name: SalesFinances.vue
+  Description: SalesFinances Page
   ----------------------------------------------------------------------------------------
   Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
     Author: Pixinvent
@@ -9,20 +9,20 @@
 
 
 <template>
-   <div><chartjs-component-bar-chart />ddddd</div>
+   <div><high-charts-bar-chart></high-charts-bar-chart></div>
         
 </template>
 
 <script>
 import ChartjsComponentBarChart from '../charts-and-maps/charts/chartjs/charts-components/ChartjsComponentBarChart.vue'
+import HighChartsBarChart from '../charts-and-maps/charts/high-charts/HighChartsBarChart.vue'
 
 export default {
-  components: { ChartjsComponentBarChart },
+  components: { ChartjsComponentBarChart, HighChartsBarChart },
   
       created () {
 
     this.$store.dispatch('sales-finances/fetchSalesFinancesItems')
-    console.log(  this.$store.dispatch('sales-finances/fetchSalesFinancesItems'))
   }}
 
    

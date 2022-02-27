@@ -607,6 +607,12 @@ export default [
     i18n: 'Pages',
     items: [
       {
+        url: '/pages/sales-finances',
+        slug: 'page-sales-finances',
+        name: 'SalesFinances',
+        icon: 'UserIcon',
+        i18n: 'SalesFinances'
+      },     {
         url: '/pages/profile',
         slug: 'page-profile',
         name: 'Profile',
@@ -617,7 +623,7 @@ export default [
         url: '/pages/user-settings',
         slug: 'page-user-settings',
         name: 'User Settings',
-        icon: 'SettingsIcon',
+        icon: 'InfoIcon',
         i18n: 'UserSettings'
       },
       {
