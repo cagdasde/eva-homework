@@ -1,14 +1,10 @@
 <template>
   <div>
-    <highcharts class="hc" :options="chartOptions" ref="chart"></highcharts>
+       <highcharts class="chart" :options="chartOptions"></highcharts>
   </div>
 </template>
 
 <script>
-import Highcharts from "highcharts";
-import exportingInit from "highcharts/modules/exporting";
-
-exportingInit(Highcharts);
 
 export default {
   data() {

@@ -610,7 +610,7 @@ export default [
         url: '/pages/sales-finances',
         slug: 'page-sales-finances',
         name: 'SalesFinances',
-        icon: 'UserIcon',
+         icon: 'InfoIcon',
         i18n: 'SalesFinances'
       },     {
         url: '/pages/profile',
