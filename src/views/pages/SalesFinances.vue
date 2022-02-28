@@ -15,7 +15,7 @@
 
 <script>
 import ChartjsComponentBarChart from '../charts-and-maps/charts/chartjs/charts-components/ChartjsComponentBarChart.vue'
-import HighChartsBarChart from '../charts-and-maps/charts/high-charts/HighChartsBarChart.vue'
+import HighChartsBarChart from '../../components/high-charts/HighChartsBarChart.vue'
 
 export default {
   components: { ChartjsComponentBarChart, HighChartsBarChart },
